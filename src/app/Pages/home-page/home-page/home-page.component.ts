@@ -51,6 +51,7 @@ export class HomePageComponent implements OnInit {
     }
     localStorage.setItem('khayalWebLang', this.language);
     this.langService.setLang(this.language);
+    console.log(this.language)
     this.router.navigate(['/home']);
   }
 
