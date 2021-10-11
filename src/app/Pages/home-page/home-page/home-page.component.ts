@@ -29,7 +29,8 @@ export class HomePageComponent implements OnInit {
       this.translate.use('ar');
       this.language = 'ar';
     } else {
-      this.document.body.setAttribute('dir', 'ltr');
+      // this.document.body.setAttribute('dir', 'ltr');
+      this.document.body.setAttribute('dir', 'rtl');
       this.translate.use('en');
       this.language = 'en';
     }
@@ -43,7 +44,8 @@ export class HomePageComponent implements OnInit {
       this.translate.use('ar');
       this.language = 'ar';
     } else {
-      this.document.body.setAttribute('dir', 'ltr');
+     // this.document.body.setAttribute('dir', 'ltr');
+     this.document.body.setAttribute('dir', 'rtl');
       this.translate.use('en');
       this.language = 'en';
     }

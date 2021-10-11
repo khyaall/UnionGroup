@@ -1,27 +1,32 @@
-<div class="mainNav m-0 row">
+<div class="mainNav m-0 row" dir="rtl">
     <div class="col-md-3 div1">
         <img height="70px" src="../../../assets/Images//DSF.svg" alt="">
     </div>
     <div class="col row div2">
         <div class="col links">
             <a  id="1" (click)="route(1)"
-            routerLink="/home/page" class="navX mx-2 text-light navX">الرئيسية</a>
+            routerLink="/home/page" class="navX mx-1 text-light">الرئيسية</a>
         </div>
         <div class="col links">
               <a  id="2" (click)="route(2)"
-              class="mx-2 text-light">المـنــتــجــات</a>
+              class="mx-1 text-light">المـنــتــجــات</a>
         </div>
         <div class="col links">
-              <a  id="3" (click)="route(3)" class=" mx-2 text-light">مـــن نـــحـــن</a>
+            <a  id="2" (click)="route(3)"
+            routerLink="/ourMission"
+            class="mx-1 text-light">رســـالـــتــنــا</a>
+      </div>
+        <div class="col links">
+              <a  id="3" (click)="route(4)" class=" mx-1 text-light">مـــن نـــحـــن</a>
         </div>
         <div class="col links">
-              <a  id="3" (click)="route(7)"  class="mx-2  text-light">اتــصــل بــنــا</a>
+              <a  id="3" (click)="route(5)"  class="mx-1  text-light">اتــصــل بــنــا</a>
         </div>
     </div>
-    <div class="col-md-4 row align-items-center div3">
-        <p class="col-md-6 phone">2010000000000+</p>
-        <div class="col-md-4 me-4 text-center">
-        <img width="60px" height="60px" src="../../../assets/Images/headset-svgrepo-com.svg" alt="">
+    <div class="col-md-3 row justify-content-between align-items-center div3">
+        <p class="col-md-5 phone">2010000000000+</p>
+        <div class="col-md-4 mb-2 me-3 text-center">
+        <img width="50px" height="50px" src="../../../assets/Images/headset-svgrepo-com.svg" alt="">
     </div>
     </div>
 </div>

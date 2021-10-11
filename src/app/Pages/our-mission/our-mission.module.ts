@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { OurMissionRoutingModule } from './our-mission-routing.module';
 import { OurMissionComponent } from './our-mission/our-mission.component';
+import { LayoutsModule } from 'src/app/layouts/layouts.module';
+import { WidgetsModule } from 'src/app/widgets/widgets.module';
 
 
 @NgModule({
@@ -11,7 +13,9 @@ import { OurMissionComponent } from './our-mission/our-mission.component';
   ],
   imports: [
     CommonModule,
-    OurMissionRoutingModule
+    OurMissionRoutingModule,
+    LayoutsModule,
+    WidgetsModule
   ]
 })
 export class OurMissionModule { }
