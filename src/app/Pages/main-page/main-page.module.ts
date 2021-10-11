@@ -19,6 +19,10 @@ import { PrimeNgModule } from 'src/app/DesignModules/prime-ng.module';
     WidgetsModule,
     LayoutsModule,
     PrimeNgModule
+  ],
+  exports : [
+    MainPageComponent,
+    MainContentComponent
   ]
 })
 export class MainPageModule { }
