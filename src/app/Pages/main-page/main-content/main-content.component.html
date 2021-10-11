@@ -1,0 +1,98 @@
+<div class="m-0">
+    <div class="slideShow p-0" dir="ltr">
+        <p-carousel  [value]="carouselImg" [numVisible]="1"  [showNavigators]="false" [numScroll]="1" [circular]="true" [autoplayInterval]="3000" [responsiveOptions]="responsiveOptions">
+            <ng-template let-image pTemplate="item">
+                <div [ngStyle]="{'background':'url(' + image.src + ')', 'background-repeat': 'no-repeat', 'background-size': '100%'}" class="slidShow">
+                </div>
+                <!-- url('../../../../assets/Images/50000.svg') no-repeat -->
+            </ng-template>
+        </p-carousel>
+    </div>
+    <div class="row justify-content-between m-0 pt-3 section1">
+        <div class="col-md-4 div1">
+            <img width="600px" class="animate__animated animate__backInDown animate__delay-3s" src="../../../../assets/Images/01_Home-_01.svg" alt="">
+        </div>
+        <div class="col-md-7 div2">
+            <p class="header">
+                <span class="span1">يونيون جروب..</span>
+                <span class="span2"> منتجات أواني الطهي الامنة</span>
+            </p>
+            <p class="paragraph">
+                منذ تأسيسها في عام 1964 ، نمت مجموعة يونيون جروب لتصبح شركة تصنيع رائدة متخصصة في منتجات أواني الطهي جنبًا إلى جنب مع الأجهزة المنزلية الكهربائية. على مدار عقود ، نما ما بدأ كمصنع متواضع لأدوات الطهي من الألومنيوم ليصبح منشآت تصنيع كبيرة متعددة الوحدات مع وحدة أعمال متكاملة رأسياً ، تتعامل مع كل من إنتاج وتوزيع المنتجات. نحن ننتج مجموعة متنوعة غنية من منتجات أواني الطهي تتراوح من الألمنيوم والسيراميك والجرانيت وأواني الطبخ غير اللاصقة المطلية بالتفلون والفولاذ المقاوم للصدأ ، وتعمل في إطار مجموعة من العلامات التجارية الراسخة وذات السمعة الطيبة في أسواق مصر والشرق الأوسط. كوننا روادًا في هذه الصناعة في منطقة الشرق الأوسط وشمال إفريقيا ، فقد كرسنا أنفسنا لتقديم حلول أواني طهي ذكية ومتينة وآمنة الاستخدام وعصرية ، من خلال الاهتمام بالتفاصيل وتطبيق أعلى معايير الجودة. من ناحية أخرى ، كنا دائمًا نقدر ونقدر أكبر أصولنا ، مجتمعنا ، ونضع صحته العامة ورفاهيته على رأس مسؤولياتنا الاجتماعية الرئيسية.
+
+            </p>
+            <div class="col-md-5 mx-auto text-center">
+                <button type="button" class="btn bttn">تعرف علي يونيون جروب</button>
+            </div><br><br>
+        </div>
+    </div>
+    <div class="row m-0 ourMission">
+        <div class="col-md-6">
+            <div class="wook text-center mt-1">
+                <img class="img1" width="300px" src="../../../../assets/Images/Group 48.svg" alt="">
+                <img class="img2" height="550px" width="600px" src="../../../../assets/Images/7f68d6122246537.60d5921c644c7.svg" alt="">
+                <img class="img3" width="300px" src="../../../../assets/Images/Group 49.svg" alt="">
+                <img class="img4" width="250px" src="../../../../assets/Images/Repeat Grid 1.svg" alt="">
+                <p>مهمتنا</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="textt col-md-8 m-auto">
+                <p>كوننا روادًا في هذه الصناعة فـي مــنـطـقـة الشــرق الأوســط وشـمـــال إفـريـقـيــا ، فــقــد
+                    كرسنا أنفسنا لتقديم حلول أوانـي طـهـي ذكـيـة ومـتـيـنـة وآمـنة للاسـتـخـدام وصـحـيــة 
+                   وحديثة ، من خلال الاهتمام بالتفاصيل وتطبيق أعلى معايير الجـودة فـي الــمــواد الــخــام
+                    وعمليات الإنتاج. من ناحية أخرى ، فقد استفدنا دائمًا من بيئة الـعمل المناسبة لموظفينا
+                    ليكونوا مبدعين ومبتكرين وهو الأمر الذي جعلنا قادرين على الالتزام بتقديم تجربة طهي 
+                   أكثر متعة وإرضاء لجميع العملاء.</p>
+            </div>
+            <img src="../../../../assets/Images/Group 50.svg" width="200px" class="img5" alt="">
+        </div>
+    </div>
+    <div class="ourProducts">
+        <div class="sub">
+            <p class="title text-center">منتجاتنا</p>
+            <hr class="mx-auto">
+            <div class="">
+                <div class="row mx-1 justify-content-around g-md-3">
+                  <div class="col-md-4 product product1">
+                    <div class="p-3">
+                        <!-- <img width="600px" src="../../../../assets/Images/338c3382420915.5d1cd036937dc.svg" alt=""> -->
+                        <!-- <div class="aboveDiv"></div> -->
+                    </div>
+                  </div>
+                  <div class="col-md-4 product product2">
+                    <div class="p-3"></div>
+                  </div>
+                  <div class="col-md-4 product product3">
+                    <div class="p-3"></div>
+                  </div>
+                  <div class="col-md-4  product product4">
+                    <div class="p-3"></div>
+                  </div>
+                  <div class="col-md-4 product product5">
+                    <div class="p-3"></div>
+                  </div>
+                  <div class="col-md-4 product product6">
+                    <div class="p-3"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 mt-5 mx-auto text-center">
+                <button type="button" class="btn bttnn">المزيد من المنتجات</button>
+        </div>
+    </div>
+    <div class="ourPurpose">
+        <p class="titl text-center">هدفنا</p>
+        <div class="Divv col-md-8 mx-auto">
+            <p>نهدف إلى تقديم حلول أواني طهي ذكية للجميع. الابتكار والمرونة 
+                والإبداع والمسؤولية الاجتماعية هي محور تركيزنا الرئيسي</p>
+        </div>
+        <div class="row subdiv m-0">
+            <div class="col-md-4 divX"></div>
+            <div class="col-md-3 pt-4 text-center div2">
+                <p class="ParaX">يونيون جروب</p>
+            </div>
+            <div class="col-md-5 div3"></div>
+        </div>
+    </div>
+</div>

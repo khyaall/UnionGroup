@@ -1,0 +1,225 @@
+// *{
+// overflow: hidden;
+// }
+.slidShow{
+    height: 81.93vh;
+    padding: 0px !important;
+ }
+.section1{
+    height: 80vh;
+    background: #fff;
+}
+.section1 .div1{
+    padding-top: 40px;
+}
+.header{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.header .span1{
+    color: #14306F;
+}
+.header .span2{
+    color: #EC7B13;
+}
+.paragraph{
+    font-size: 20px;
+    color: #000;
+     margin-top: 30px;
+     padding-left: 20px;
+    line-height: 45px;
+}
+.bttn{
+    background: #EC7B13 !important;
+    border-radius: 42px !important;
+    font-size: 25px !important;
+   width: 20vw;
+   height: 6vh;
+   color: #fff;
+}
+.ourMission{
+    height: 85vh;
+    background: #151949;
+    position: relative;
+    overflow: hidden;
+}
+.wook{
+    // background: url('../../../../assets/Images/7f68d6122246537.60d5921c644c7.svg') no-repeat;
+    // background-size: 100%;
+    // height: 80vh;
+    position: relative;
+    right: 0px;
+}
+.wook .img1{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.wook .img2{
+    position: absolute;
+   // margin: 10px;
+    right: 15px;
+    top: 39px;
+}
+.wook .img3{
+    position: absolute;
+   // margin: 10px;
+    right: 318px;
+    top: 343px;
+}
+.img4{
+    position: absolute;
+    right: 595px;
+    top: 35px;
+}
+.ourMission p{
+    position: absolute;
+    right: 640px;
+    top: 140px;
+    font-size: 50px;
+    color: #fff;
+}
+.textt{
+    // position: relative;
+    overflow: hidden;
+}
+.textt p{
+    position: absolute;
+    font-size: 20px;
+    line-height: 35px;
+    width: 48vw;
+    right: 700px;
+    top: 270px;
+}
+.img5{
+    position: absolute;
+    top: 150px;
+    //right: 900px;
+    left: -170px;
+    overflow: hidden;
+}
+.ourProducts{
+    height: 250vh;
+    background: #151949;
+}
+.ourProducts .sub{
+    background: url('../../../../assets/Images/بيلبلبل.svg') no-repeat;
+    background-size: 100%;
+    height: 250vh;
+}
+.title{
+    font-size: 90px;
+    font-weight: bold;
+    color: #000;
+    padding-top: 400px;
+    padding-bottom: 15px;
+}
+.ourProducts .sub hr{
+    height: 9px;
+    width: 20vw;
+    background: #fff;
+    opacity: 100%;
+}
+.product{
+     height: 60vh;
+     //position: relative;
+    width: 30vw;
+}
+.product1{
+    background: url('../../../../assets/Images/338c3382420915.5d1cd036937dc.svg') no-repeat;
+    background-size: cover;
+}
+.product2{
+    background: url('../../../../assets/Images/سبيو.svg') no-repeat;
+    background-size: cover;
+}
+.product3{
+    background: url('../../../../assets/Images/شسيب.svg') no-repeat;
+    background-size: cover;
+    margin-left: 50px;
+}
+.product4{
+    background: url('../../../../assets/Images//WhatsApp\ Image\ 2021-10-05\ at\ 1.28.53\ PM\ \(1\).svg') no-repeat;
+    background-size: cover;
+}
+.product5{
+    background: url('../../../../assets/Images/WhatsApp\ Image\ 2021-10-05\ at\ 1.28.53\ PM.svg') no-repeat;
+    background-size: cover;
+}
+.product6{
+    background: url('../../../../assets/Images/Untitled-8.svg') no-repeat;
+    background-size: cover;
+    margin-left: 50px;
+}
+
+.aboveDiv{
+    height: 30vh;
+    width: 32vw;
+    background: #14306F;
+    opacity: 74%;
+    display: none;
+    transition: 2s 0s ease;
+    -webkit-transition: 2s 0s ease;
+    -moz-transition: 2s 0s ease;
+    -ms-transition: 2s 0s ease;
+    -o-transition: 2s 0s ease;
+}
+.product:hover{
+    .aboveDiv{
+        display: block;
+    }
+}
+.bttnn{
+    width: 25vw !important;
+    height: 10vh !important;
+    background: #151949 !important;
+    border-radius: 34px !important;
+    -webkit-border-radius: 34px !important;
+    -moz-border-radius: 34px !important;
+    -ms-border-radius: 34px !important;
+    -o-border-radius: 34px !important;
+    color: #fff;
+    font-size: 30px;
+}
+
+.ourPurpose{
+    position: relative;
+    height: 75vh;
+    background: #151949;
+}
+.ourPurpose .titl{
+    font-size: 90px;
+    color: #fff;
+}
+.ourPurpose .Divv{
+    background: url('../../../../assets/Images/Group\ 54.svg') no-repeat;
+    background-size: 100%;
+    margin-top: 80px;
+    height: 50vh;
+    p{
+        color: #fff;
+        font-size: 38px;
+        line-height: 100px;
+        text-align: center;
+        padding-top: 30px;
+        padding: 30px;
+    }
+}
+.subdiv{
+    height: 10vh;
+}
+.ourPurpose .divX{
+    background: url('../../../../assets/Images/51.svg') no-repeat;
+    background-size: 100%;
+    height: 9vh;
+}
+.ourPurpose .div3{
+    background: url('../../../../assets/Images/52.svg') no-repeat;
+    background-size: 100%;
+    height: 9vh;
+}
+.div2 .ParaX{
+    font-size: 70px;
+    color: #fff;
+}

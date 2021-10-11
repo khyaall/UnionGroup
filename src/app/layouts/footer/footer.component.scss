@@ -1,0 +1,32 @@
+.main{
+    height: 1000px;
+    background: #151949;
+}
+p{
+    color: white;
+}
+.div1{
+    border: 1px solid #14306F;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 30px !important;
+    height: 30px;
+    padding: 6px;
+    i{
+        font-size: 16px;
+        color: #14306F;
+    }
+}
+.div1:hover{
+    i{
+        color: #EC7B13;
+    }
+}
+.finalDiv{
+    height: 100px;
+    background: #EC7B13;
+}

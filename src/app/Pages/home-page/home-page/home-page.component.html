@@ -1,0 +1,54 @@
+<div class="main p-0">
+    <div class="row m-0 justify-content-center navBarr">
+            <div class="row align-items-center mx-md-4 col-md-2">
+                <div class="mx-1 text-center div1">
+                    <!-- <img src="../../../assets/Images/twitter.svg" alt=""> -->
+                    <span><i class="pi pi-twitter"></i></span>
+                    
+                </div>
+                <div class="text-center div1">
+                    <!-- <img src="../../../assets/Images/Path 7.svg" alt=""> -->
+                    <span><i class="pi pi-play"></i></span>
+                </div>
+                <div class="mx-1 text-center div1">
+                    <!-- <img src="../../../assets/Images/instagram.svg" alt=""> -->
+                    <span><i class="fab fa-instagram"></i></span>
+                </div>
+                <div class="text-center div1">
+                    <!-- <img src="../../../assets/Images/facebook.svg" alt=""> -->
+                    <span><i class="fab fa-facebook-f"></i></span>
+                </div>
+            </div>
+            <div class="col-md-7"></div>
+        <div class="row align-items-center col-md-2">
+            <p class="para col-md-3 col-2 p-0">للتواصل</p>
+        <div class="col-md-6 col-5 mt-2 mx-1 mb-3">
+            <span class="para1 p-0">+2010000000000</span><br>
+            <span class="para1 p-0">+2010000000000</span>
+        </div>
+        <div class="text-center col-md-2 div2">
+            <img src="../../../../assets/Images/headset-svgrepo-com.svg" alt="">
+        </div>
+        </div>
+    </div>
+    <div class="slideShow" dir="ltr">
+        <p-carousel  [value]="carouselImg" [numVisible]="1"  [showNavigators]="false" [numScroll]="1" [circular]="true" [autoplayInterval]="3000" [responsiveOptions]="responsiveOptions">
+            <ng-template let-image pTemplate="item">
+                <div [ngStyle]="{'background':'url(' + image.src + ')', 'background-repeat': 'no-repeat', 'background-size': '100%'}" class="slidShow">
+                </div>
+                <!-- url('../../../../assets/Images/50000.svg') no-repeat -->
+            </ng-template>
+        </p-carousel>
+        <div class="buttons col-md-5 m-auto row">
+            <div class="col text-center">
+                <button type="button" class="btn bttn" (click)="onChooseLag()">ENGLISH</button>
+            </div>
+            <div class="col text-center">
+                <button type="button" class="btn bttn" (click)="onChooseLag('ar')">اللغة العربية</button>
+            </div>
+        </div>
+    </div>
+    <div class="logo text-center col-md-4">
+        <img src="../../../../assets/Images/DSDD.svg" alt="">
+    </div>
+</div>

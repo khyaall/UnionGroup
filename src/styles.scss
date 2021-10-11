@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  font-family: 'beIN Normal';
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator button {
+  background-color: #14306F !important;
+  width: 24.72vw !important;
+  height: 11px !important;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+  border-radius: 0;
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button{
+background-color: #EC7B13 !important;
+}
+.p-carousel .p-carousel-indicators {
+padding: 0rem !important; 
+height: 11px !important;
+}
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator{
+  margin-right: 0rem !important;
+}
