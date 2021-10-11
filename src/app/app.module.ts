@@ -1,10 +1,11 @@
+import { MainPageModule } from './Pages/main-page/main-page.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { LayoutModule } from '@angular/cdk/layout';
+import { LayoutsModule } from './layouts/layouts.module';
 import { WidgetsModule } from './widgets/widgets.module';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
@@ -22,7 +23,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    LayoutModule,
+    LayoutsModule,
+    MainPageModule,
     WidgetsModule,
     HttpClientModule,
     TranslateModule.forRoot({
