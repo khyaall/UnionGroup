@@ -1,16 +1,24 @@
 // *{
 // overflow: hidden;
 // }
+body{
+  background-color: #151949;
+}
+slideShow{
+  overflow-y: hidden;
+}
 .slidShow{
+  overflow-y: hidden;
     height: 81.93vh;
     padding: 0px !important;
  }
 .section1{
-    height: 80vh;
+
     background: #fff;
 }
 .section1 .div1{
     padding-top: 40px;
+    overflow: hidden;
 }
 .header{
     font-size: 30px;
@@ -35,71 +43,193 @@
     border-radius: 42px !important;
     font-size: 25px !important;
    width: 20vw;
-   height: 6vh;
+
+   padding: 1%;
    color: #fff;
 }
-.ourMission{
-    height: 85vh;
-    background: #151949;
-    position: relative;
-    overflow: hidden;
+
+.middle{
+  overflow: hidden;
+  background-color: #151949;
+
 }
-.wook{
+.video{
+  height: 50vh;
+  border: 2px solid white;
+}
+
+.products{
+
+  background: url('../../../../assets/Images/بيلبلبل.svg') no-repeat;
+  background-size: cover;
+  padding-top: 30%;
+}
+.product-title{
+  font-size: 90px;
+  font-weight: bold;
+  color: #151949;
+  padding-bottom: 15px;
+}
+.products hr{
+  height: 9px;
+  width: 20vw;
+  background: #fff;
+  opacity: 100%;
+}
+.divme{
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #14306F;
+  border-radius: 10px;
+}
+.overlay p{
+  margin-top: 25vh;
+  color: white;
+  font-size: 50px;
+
+}
+.overlay i{
+  margin-top: 12%;
+  font-size: 70px;
+  color: white;
+}
+
+.divme:hover .overlay {
+  opacity: 0.9;
+}
+
+
+.divme{
+  height: 50vh;
+  margin-left: 4%;
+  margin-right: 4%;
+  border-radius: 10px;
+}
+.divme1{
+  background: url('../../../../assets/Images/pawa.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.divme2{
+  background: url('../../../../assets/Images/pawa2.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.divme3{
+  background: url('../../../../assets/Images/pawa3.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.divme4{
+  background: url('../../../../assets/Images/pawa4.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.divme5{
+  background: url('../../../../assets/Images/pawa5.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.divme6{
+  background: url('../../../../assets/Images/pawa.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.product-button{
+  background-color: #151949;
+  color: white;
+  font-size: 40px;
+  padding: 3px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.product-button:hover{
+  background-color: white;
+  color: #EC7B13;
+}
+
+// .ourMission{
+//     height: 85vh;
+//     background: #151949;
+//     position: relative;
+//     overflow: hidden;
+// }
+// .wook{
     // background: url('../../../../assets/Images/7f68d6122246537.60d5921c644c7.svg') no-repeat;
     // background-size: 100%;
     // height: 80vh;
-    position: relative;
-    right: 0px;
-}
-.wook .img1{
-    position: absolute;
-    right: 10px;
-    top: 15px;
-}
-.wook .img2{
-    position: absolute;
-   // margin: 10px;
-    right: 15px;
-    top: 39px;
-}
-.wook .img3{
-    position: absolute;
-   // margin: 10px;
-    right: 318px;
-    top: 343px;
-}
-.img4{
-    position: absolute;
-    right: 595px;
-    top: 35px;
-}
-.ourMission p{
-    position: absolute;
-    right: 640px;
-    top: 140px;
-    font-size: 50px;
-    color: #fff;
-}
-.textt{
-    // position: relative;
-    overflow: hidden;
-}
-.textt p{
-    position: absolute;
-    font-size: 20px;
-    line-height: 35px;
-    width: 48vw;
-    right: 700px;
-    top: 270px;
-}
-.img5{
-    position: absolute;
-    top: 150px;
-    //right: 900px;
-    left: -170px;
-    overflow: hidden;
-}
+//     position: relative;
+//     right: 0px;
+// }
+// .wook .img1{
+//     position: absolute;
+//     right: 10px;
+//     top: 15px;
+// }
+// .wook .img2{
+//     position: absolute;
+//    // margin: 10px;
+//     right: 15px;
+//     top: 39px;
+// }
+// .wook .img3{
+//     position: absolute;
+//    // margin: 10px;
+//     right: 318px;
+//     top: 343px;
+// }
+// .img4{
+//     position: absolute;
+//     right: 595px;
+//     top: 35px;
+// }
+// .ourMission p{
+//     position: absolute;
+//     right: 640px;
+//     top: 140px;
+//     font-size: 50px;
+//     color: #fff;
+// }
+// .textt{
+//     // position: relative;
+//     overflow: hidden;
+// }
+// .textt p{
+//     position: absolute;
+//     font-size: 20px;
+//     line-height: 35px;
+//     width: 48vw;
+//     right: 700px;
+//     top: 270px;
+// }
+// .img5{
+//     position: absolute;
+//     top: 150px;
+//     //right: 900px;
+//     left: -170px;
+//     overflow: hidden;
+// }
 .ourProducts{
+  margin-top: 8%;
     height: 250vh;
     background: #151949;
 }
@@ -129,8 +259,10 @@
 .product1{
     background: url('../../../../assets/Images/338c3382420915.5d1cd036937dc.svg');
     background-repeat: repeat;
-    // background-size: cover;
+    background-size: cover;
+
 }
+.product1:hover{background-color: yellow;}
 .product2{
     background: url('../../../../assets/Images/سبيو.svg') no-repeat;
     background-size: cover;
