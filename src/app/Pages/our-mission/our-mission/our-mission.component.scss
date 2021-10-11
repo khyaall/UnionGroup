@@ -1,12 +1,83 @@
 
 
 .section1{
-    height: 400px;
+    height: 600px;
     background: #151949;
+    overflow: hidden;
 }
 .title{
     width: 200px;
-    height: 100px;
-    background: url('../../../../assets/Images/Group\ 55.svg') no-repeat;
+    height: 200px;
+    background: url('../../../../assets/Images/Group\ 56.svg') no-repeat;
     background-size: cover;
+    margin-top: -20px;
+}
+.textt{
+    height: 230px;
+    margin-top: 200px;
+    margin-right: -150px;
+    width: 60vw;
+    background: url('../../../../assets/Images/Group\ 57.svg') no-repeat;
+    background-size: 100%;
+}
+
+.textt p{
+    font-size: 35px;
+    color: #fff;
+    line-height: 80px;
+    padding-top: 30px;
+    text-align: center;
+}
+.img{
+     height: 365px;
+    background: url('../../../../assets/Images/Image\ 1.svg') no-repeat;
+    background-size: 100%;
+    // background: olive;
+     margin-right: 70px;
+     margin-left: -100px;
+}
+.section2{
+    height: 500px;
+    background: rgba($color: #fff, $alpha: 0.88);
+}
+.vision{
+    height: 310px;
+    background: url('../../../../assets/Images/Group\ 58.svg') no-repeat;
+    background-size: 100%;
+}
+.section2 p{
+    font-size: 70px;
+    color: #EC7B13;
+    text-align: center;
+    padding-top: 90px;
+}
+.vision p{
+    font-size: 50px;
+    color: #000;
+    color: #14306F;
+    text-align: center;
+    line-height: 100px;
+    padding: 40px;
+    padding-top: 50px;
+}
+.section3{
+    background: rgba($color: #EC7B13, $alpha: .88);
+    height: 750px;
+    padding-top: 40px;
+}
+
+.section3 .subdiv{
+    height: 720px;
+    background: url('../../../../assets/Images/Group\ 59.svg') no-repeat;
+    background-size: 100%;
+    margin-right: 60px;
+    margin-left: -150px;
+}
+.subdiv p{
+    text-align: justify;
+    padding-top: 250px;
+    margin-right: 680px;
+    line-height: 50px;
+    font-size: 25px;
+    color: #fff;
 }

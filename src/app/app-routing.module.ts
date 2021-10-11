@@ -15,6 +15,18 @@ const routes: Routes = [
     loadChildren: ()=> import('./Pages/our-mission/our-mission.module').then(m => m.OurMissionModule)
   },
   {
+    path: 'contactUs',
+    loadChildren: ()=> import('./Pages/contact-us/contact-us.module').then(m => m.ContactUsModule)
+  },
+  {
+    path: 'whoUs',
+    loadChildren: ()=> import('./Pages/who-us/who-us.module').then(m => m.WhoUsModule)
+  },
+  {
+    path: 'products',
+    loadChildren: ()=> import('./Pages/products/products.module').then(m => m.ProductsModule)
+  },
+  {
     path: '',
     redirectTo: 'welcome-page',
     pathMatch: 'full'
