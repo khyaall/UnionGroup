@@ -127,8 +127,9 @@
     width: 30vw;
 }
 .product1{
-    background: url('../../../../assets/Images/338c3382420915.5d1cd036937dc.svg') no-repeat;
-    background-size: cover;
+    background: url('../../../../assets/Images/338c3382420915.5d1cd036937dc.svg');
+    background-repeat: repeat;
+    // background-size: cover;
 }
 .product2{
     background: url('../../../../assets/Images/سبيو.svg') no-repeat;
@@ -222,4 +223,7 @@
 .div2 .ParaX{
     font-size: 70px;
     color: #fff;
+}
+.DD{
+    padding: 0px;
 }
