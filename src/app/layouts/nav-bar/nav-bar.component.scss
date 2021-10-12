@@ -34,3 +34,129 @@
     margin-right: 55px;
     margin-top: 5px;
 }
+.logo{
+    height: 60px;
+    width: 350px;
+}
+.call{
+    width: 50px;
+    height: 50px
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (max-width: 1441px) { 
+    .mainNav{
+        height: 13vh;
+    }
+    .div1{
+        background-size: 100%;
+        height: 12vh;
+    }
+    .div3{
+        height: 12vh;
+    }
+    .links{
+        font-size: 26px;
+    }
+    .phone{
+        margin-right: 38px;
+    }
+}
+@media (max-width: 1025px) {
+    .mainNav{
+        height: 10vh;
+    }
+    .logo{
+        height: 40px;
+        width: 250px;
+    }
+    .div1{
+        background-size: 100%;
+        height: 9vh;
+    }
+    .div3{
+        height: 9vh;
+    }
+    .links{
+        font-size: 16px;
+    }
+    .phone{
+        font-size: 20px;
+        padding: 10px;
+        margin-right: 15px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    .call{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 5px;
+    }
+  
+}
+
+@media (max-width: 769px) {
+    .mainNav{
+        height: 8vh;
+    }
+    .logo{
+        height: 30px;
+        width: 180px;
+    }
+    .div1{
+        background-size: 100%;
+        height: 9vh;
+    }
+    .div3{
+        height: 9vh;
+    }
+    .links{
+        font-size: 11px;
+        padding-top: 18px;
+    }
+    .phone{
+        font-size: 16px;
+        padding: 5px;
+        margin-bottom: 27px;
+    }
+    .call{
+        width: 30px;
+        height: 30px;
+        margin-bottom: 17px;
+        margin-right: 10px;
+    }
+  
+}
+
+@media (max-width: 426px) {
+    .mainNav{
+        height: 5vh;
+    }
+    .logo{
+        height: 14px;
+        width: 90px;
+    }
+    .div1{
+        background-size: 100%;
+        height: 9vh;
+        width: 25vw;
+    }
+    .div3{
+        height: 9vh;
+        width: 25vw;
+    }
+    .links{
+        font-size: 3px;
+        padding-top: 10px;
+    }
+    .phone{
+        font-size: 10px;
+        margin-bottom: 50px;
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .call{
+       display: none;
+    }
+  
+}

@@ -56,6 +56,10 @@
     height: 9vh;
     background: #EC7B13;
 }
+.forcall{
+    margin-right: 20px;
+    padding-right: 80px;
+}
 
 .slidShow{
    // background: url('../../../../assets/Images/50000.svg') no-repeat;
@@ -93,3 +97,55 @@
 .slideShow{
     position: relative;
 }
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (max-width: 1441px) {
+    .navBarr{
+        height: 60px;
+    }
+    .socials{
+        margin-bottom: 5px;
+    }
+    .forcall{
+        margin-right: 20px;
+        padding-right: 65px;
+
+    }
+}
+@media (max-width: 1025px) {
+    .socials{
+        width: 18vw;
+    }
+    .forcall{
+        margin-right: 10px;
+        padding-right: 0px;
+
+    }
+    .para{
+        font-size: 14px;
+    }
+    .para1{
+        font-size: 14px;
+    }
+    .logoo{
+        width: 30vw;
+    }
+    .logo{
+        height: 220px;
+    }
+}
+
+@media (max-width: 769px) {
+    .socials{
+        width: 25vw;
+    }
+    .para1{
+        font-size: 11px;
+    }
+    .logo{
+        height: 200px;
+    }
+}
+
+@media (max-width: 426px) {}

@@ -14,6 +14,9 @@ import { PrimeNgModule } from 'src/app/DesignModules/prime-ng.module';
     CommonModule,
     HomePageRoutingModule,
     PrimeNgModule
+  ],
+  exports: [
+    HomePageComponent
   ]
 })
 export class HomePageModule { }

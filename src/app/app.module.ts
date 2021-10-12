@@ -10,6 +10,7 @@ import { WidgetsModule } from './widgets/widgets.module';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { HomePageModule } from './Pages/home-page/home-page.module';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -33,7 +34,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    HomePageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

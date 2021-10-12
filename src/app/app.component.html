@@ -1,1 +1,10 @@
+<div *ngIf="!disply">
+<app-home-page (displayed)= "onDisplay($event)"></app-home-page>
+</div>
+<div *ngIf="disply">
+<app-sub-nav></app-sub-nav>
+<app-nav-bar></app-nav-bar>
 <router-outlet></router-outlet>
+<app-footer></app-footer>
+<app-sub-footer></app-sub-footer>
+</div>

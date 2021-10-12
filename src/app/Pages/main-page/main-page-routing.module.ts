@@ -4,8 +4,8 @@ import { MainContentComponent } from './main-content/main-content.component';
 import { MainPageComponent } from './main-page/main-page.component';
 
 const routes: Routes = [
-  {path: '', component: MainPageComponent},
-  {path: 'page', component: MainContentComponent}
+  {path: '', component: MainContentComponent},
+  // {path: 'page', component: MainContentComponent}
 ];
 
 @NgModule({

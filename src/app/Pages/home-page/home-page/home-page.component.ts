@@ -1,5 +1,5 @@
 import { DOCUMENT } from '@angular/common';
-import { Component, Inject, OnInit } from '@angular/core';
+import { Component, EventEmitter, Inject, OnInit, Output } from '@angular/core';
 import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { LangService } from 'src/app/Services/lang.service';
@@ -11,6 +11,7 @@ import { LangService } from 'src/app/Services/lang.service';
 })
 export class HomePageComponent implements OnInit {
   language: string | null = localStorage.getItem('UnionGroupLang')
+  @Output() displayed: EventEmitter<Boolean> = new EventEmitter();
   constructor(
     // @ts-ignore
     @Inject(DOCUMENT) private document,
@@ -19,24 +20,11 @@ export class HomePageComponent implements OnInit {
     private router: Router) { }
 
   ngOnInit(): void {
-    this.onDetectLag(this.language)
-    console.log(this.language)
+    // this.onDetectLag(this.language)
+    // console.log(this.language)
   }
 
-  onDetectLag(lang?: string | null): void {
-    if (lang === 'ar') {
-      this.document.body.setAttribute('dir', 'rtl');
-      this.translate.use('ar');
-      this.language = 'ar';
-    } else {
-      // this.document.body.setAttribute('dir', 'ltr');
-      this.document.body.setAttribute('dir', 'rtl');
-      this.translate.use('en');
-      this.language = 'en';
-    }
-    localStorage.setItem('khayalWebLang', this.language);
-    this.langService.setLang(this.language);
-  }
+  
 
   onChooseLag(lang?: string | null){
     if (lang === 'ar') {
@@ -52,6 +40,7 @@ export class HomePageComponent implements OnInit {
     localStorage.setItem('khayalWebLang', this.language);
     this.langService.setLang(this.language);
     console.log(this.language)
+    this.displayed.emit(true);
     this.router.navigate(['/home']);
   }
 

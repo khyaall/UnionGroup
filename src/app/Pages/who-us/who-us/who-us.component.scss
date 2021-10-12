@@ -19,3 +19,60 @@
     padding: 10px;
     width: 71vw;
 }
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+@media (max-width: 1441px) { 
+
+  }
+@media (max-width: 1025px) {
+    .main{
+        height: 500px;
+    }
+    .whoUs{
+        height: 400px;
+        width: 40vw;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    .textt{
+        font-size: 20px;
+        margin-top: 90px;
+        line-height: 40px;
+        width: 55vw;
+    }
+ }
+
+@media (max-width: 769px) {
+    .main{
+        height: 400px;
+    }
+    .whoUs{
+        height: 300px;
+        width: 40vw;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    .textt{
+        font-size: 15px;
+        margin-top: 60px;
+        line-height: 35px;
+        width: 55vw;
+    }
+ }
+
+@media (max-width: 426px) {
+    .main{
+        height: 200px;
+    }
+    .whoUs{
+        height: 155px;
+        width: 30vw;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    .textt{
+        font-size: 8px;
+        margin-top: 40px;
+        line-height: 16px;
+        width: 65vw;
+    }
+ }
