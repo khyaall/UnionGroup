@@ -41,7 +41,7 @@ export class HomePageComponent implements OnInit {
     this.langService.setLang(this.language);
     console.log(this.language)
     this.displayed.emit(true);
-    this.router.navigate(['/home']);
+    //this.router.navigate(['/home']);
   }
 
   carouselImg =[

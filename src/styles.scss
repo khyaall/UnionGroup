@@ -30,3 +30,31 @@ height: 11px !important;
 .p-carousel .p-carousel-indicators .p-carousel-indicator{
   margin-right: 0rem !important;
 }
+
+.p-paginator {
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // flex-wrap: wrap;
+  background: #151949 !important;
+}
+.p-paginator .p-paginator-pages .p-paginator-page {
+  background-color: #fff !important;
+  border-radius: 14px !important;
+  color: #131745 !important;
+  font-size: 25px !important;
+  font-family: "beIN Normal" !important;
+  
+}
+
+.p-paginator .p-paginator-first, .p-paginator .p-paginator-prev, .p-paginator .p-paginator-next, .p-paginator .p-paginator-last {
+  background-color: transparent;
+  border: 0 none;
+  color: #EC7B13 !important;
+  min-width: 2.357rem;
+  height: 2.357rem;
+  margin: 0.143rem;
+  transition: box-shadow 0.2s;
+  border-radius: 3px;
+  font-size: 50px !important;
+}

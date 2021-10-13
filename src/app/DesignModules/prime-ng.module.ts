@@ -19,6 +19,7 @@ import {TabViewModule} from 'primeng/tabview';
 import {TabMenuModule} from 'primeng/tabmenu';
 import {GalleriaModule} from 'primeng/galleria';
 import {CarouselModule} from 'primeng/carousel';
+import {PaginatorModule} from 'primeng/paginator';
 
 const primeNgMModule = [
   CommonModule,
@@ -40,7 +41,8 @@ const primeNgMModule = [
   TabViewModule,
   TabMenuModule,
   GalleriaModule,
-  CarouselModule
+  CarouselModule,
+  PaginatorModule
 ]
 
 @NgModule({

@@ -6,6 +6,7 @@ import { ProductsComponent } from './products/products.component';
 import { LayoutsModule } from 'src/app/layouts/layouts.module';
 import { WidgetsModule } from 'src/app/widgets/widgets.module';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { PrimeNgModule } from 'src/app/DesignModules/prime-ng.module';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { NgxPaginationModule } from 'ngx-pagination';
     ProductsRoutingModule,
     LayoutsModule,
     WidgetsModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    PrimeNgModule
   ]
 })
 export class ProductsModule { }
