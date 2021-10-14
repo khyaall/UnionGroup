@@ -12,7 +12,7 @@ import { LangService } from './Services/lang.service';
 export class AppComponent implements OnInit {
   language: string | null = localStorage.getItem('UnionGroupLang')
   title = 'UnionGroup';
-  disply:Boolean = false;
+  disply:string = 'false';
   constructor(
     //@ts-ignore
   @Inject(DOCUMENT) private document,
@@ -37,12 +37,13 @@ export class AppComponent implements OnInit {
       this.translate.use('en');
       this.language = 'en';
     }
-    localStorage.setItem('khayalWebLang', this.language);
+    localStorage.setItem('UnionGroupLang', this.language);
     this.langService.setLang(this.language);
   }
 
-  onDisplay(dispaly:Boolean){
+  onDisplay(dispaly:string){
     console.log(dispaly)
-    this.disply = dispaly
+    this.disply = dispaly;
+    localStorage.setItem('display',dispaly);
   }
 }

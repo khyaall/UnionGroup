@@ -1,7 +1,7 @@
-<div *ngIf="!disply">
+<div *ngIf="disply === 'false'">
 <app-home-page (displayed)= "onDisplay($event)"></app-home-page>
 </div>
-<div *ngIf="disply">
+<div *ngIf="disply === 'true'">
 <app-sub-nav></app-sub-nav>
 <app-nav-bar></app-nav-bar>
 <router-outlet></router-outlet>

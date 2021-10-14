@@ -11,7 +11,7 @@ import { LangService } from 'src/app/Services/lang.service';
 })
 export class HomePageComponent implements OnInit {
   language: string | null = localStorage.getItem('UnionGroupLang')
-  @Output() displayed: EventEmitter<Boolean> = new EventEmitter();
+  @Output() displayed: EventEmitter<string> = new EventEmitter();
   constructor(
     // @ts-ignore
     @Inject(DOCUMENT) private document,
@@ -37,10 +37,10 @@ export class HomePageComponent implements OnInit {
       this.translate.use('en');
       this.language = 'en';
     }
-    localStorage.setItem('khayalWebLang', this.language);
+    localStorage.setItem('UnionGroupLang', this.language);
     this.langService.setLang(this.language);
     console.log(this.language)
-    this.displayed.emit(true);
+    this.displayed.emit("true");
     //this.router.navigate(['/home']);
   }
 
